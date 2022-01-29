@@ -15,27 +15,27 @@
                         </ul>
                     @endif
                     <div class="form-group row">
-                        <label class="col-md-2" for="title">名前(name)</label>
+                        <label class="col-md-2" for="name">名前(name)</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="title" value="{{ $profile_form->name }}">
+                            <input type="text" class="form-control" name="name" value="{{ $profile_form->name }}">
                         </div>
                     </div>
                      <div class="form-group row">
-                        <label class="col-md-2" for="title">性別(gender)</label>
+                        <label class="col-md-2" for="gender">性別(gender)</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="title" value="{{ $profile_form->gender }}">
+                            <input type="text" class="form-control" name="gender" value="{{ $profile_form->gender }}">
                         </div>
                     </div>
                      <div class="form-group row">
-                        <label class="col-md-2" for="title">趣味(hobby)</label>
+                        <label class="col-md-2" for="hobby">趣味(hobby)</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="title" value="{{ $profile_form->hobby }}">
+                            <input type="text" class="form-control" name="hobby" value="{{ $profile_form->hobby }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="body">自己紹介(introduction)</label>
+                        <label class="col-md-2" for="introduction">自己紹介(introduction)</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="body" rows="7">{{ $profile_form->introduction }}</textarea>
+                            <textarea class="form-control" name="introduction" rows="7">{{ $profile_form->introduction }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
