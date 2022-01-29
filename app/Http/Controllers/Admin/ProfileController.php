@@ -54,7 +54,7 @@ class ProfileController extends Controller
       // Validationをかける
       $this->validate($request, Profile::$rules);
       // Profile Modelからデータを取得する
-      $Profile = Profile::find($request->id);
+      $profile = Profile::find($request->id);
       $profile_form = $request->all();
       // 該当するデータを上書きして保存する
       unset($profile_form['remove']);
