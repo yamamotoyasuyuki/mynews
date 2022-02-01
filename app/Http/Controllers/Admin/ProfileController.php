@@ -38,7 +38,7 @@ class ProfileController extends Controller
           // それ以外はすべてのニュースを取得する
           $posts = Profile::all();
       }
-      return view('admin.profile.index1', ['posts' => $posts, 'cond_title' => $cond_title]);
+      return view('admin.profile.profileindex', ['posts' => $posts, 'cond_title' => $cond_title]);
   }
   
     public function edit(Request $request)

@@ -1,5 +1,6 @@
-@extends('layouts.front')
-
+@extends('layouts.profilefront')
+@section('title','laravel19の課題')
+@section('p','laravel19の課題')
 @section('content')
     <div class="container">
         <hr color="#c0c0c0">
