@@ -29,7 +29,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('profile/delete', 'Admin\ProfileController@delete');
 });
 
-Route::get('/', 'ProfileController@index');
+Route::get('/', 'NewsController@index');
 // Route::get('XXX/XXX', 'AAAController＠bbb');
 Auth::routes();
 
